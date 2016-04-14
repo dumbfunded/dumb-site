@@ -1,0 +1,14 @@
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+baseurl = "/"
+languageCode = "en-us"
+title = "dumbfunded"
+paginate = 5
+googleAnalytics = "UA-76063110-1"
+theme = "dumbfunded"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+

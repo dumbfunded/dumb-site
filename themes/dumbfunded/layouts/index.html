@@ -1,0 +1,32 @@
+{{ partial "header.html" . }}
+
+<div id="content" class="narrow">
+
+{{ range .Paginator.Pages }}
+<div class="post text">
+  <div class="metadata">
+  	<div class="date"><a href="{{ .Permalink }}"> {{ .Date.Format "January 2, 2006" }}</a></div>
+
+	<div class="tags">{{ range .Params.categories }}<a href="category/{{ . | urlize }}">#{{ . }}</a>{{ end }}</div>
+	<div class="tags">{{ range .Params.tags }}<a href="tags/{{ . | urlize }}">#{{ . }}</a>{{ end }}</div>
+  </div>
+
+  <div class="title"><h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1></div>
+
+  <div class="caption">{{ .Summary }}</div>
+{{ if .Truncated }}
+<div class="more">
+  <a href="{{ .RelPermalink }}">Read more...</a>
+</div>
+{{ end }}
+</div> <!-- post end -->
+
+{{ end }}
+
+</div> <!-- content end -->
+
+<div class="pagination-centered">
+  {{ template "_internal/pagination.html" . }}
+</div>
+
+{{ partial "footer.html" . }}
