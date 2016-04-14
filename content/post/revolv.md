@@ -1,5 +1,5 @@
 +++
-date = "2016-04-14T03:24:57-07:00"
+date = "2016-04-08T03:56:57-07:00"
 draft = false
 title = "Revolv Shutdown"
 slug = "revolv-shutdown"
@@ -8,8 +8,7 @@ categories = [ "gotcha!" ]
 tags = [ "nest", "revolv" ]
 +++
 
-![Revolv in happier times](https://dumbfunded.imgix.net/revolv.jpg?w=640&auto=format&q=90 "The Revolv family in happier times. No one could have predicted 
-they would all be dead within two years.")
+![Revolv in happier times](https://dumbfunded.imgix.net/revolv.jpg?w=640&auto=format&q=90 "The Revolv family in happier times. No one could have predicted they would all be dead within two years.")
 
 **Revolv** [(VC: $7.3mm)](https://www.crunchbase.com/organization/revolv) made a dingus to smarten up your home. I guess it turned your lights on when you 
 told it to with your phone, but nobody is really sure. Nest bought them back in October 2014 and discontinued said dingus with a quickness, but kept its cloud 

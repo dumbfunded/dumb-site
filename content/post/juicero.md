@@ -1,5 +1,5 @@
 +++
-date = "2016-04-14T03:24:25-07:00"
+date = "2016-04-05T03:24:25-07:00"
 draft = false
 title = "Juicero: You Juice Bro?"
 slug = "juicero-you-juice-bro"
