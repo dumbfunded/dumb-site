@@ -1,0 +1,6 @@
+  <div class="metadata">
+        <div class="date"><a href="{{ .RelPermalink }}"> {{ .Date.Format "January 2 2006" }}</a></div>
+
+        <div class="tags">{{ range .Params.categories }}<a href="/categories/{{ . | urlize }}/">#{{ . }}</a>{{ end }}</div>
+        <div class="tags">{{ range .Params.tags }}<a href="/tags/{{ . | urlize }}/">#{{ . }}</a>{{ end }}</div>
+  </div>

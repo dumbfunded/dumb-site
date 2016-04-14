@@ -3,29 +3,9 @@
 <div id="content" class="narrow">
 
 <div class="post text">
-  <div class="metadata">
-  	<div class="date"><a href="{{ .Permalink }}"> {{ .Date.Format "January 2, 2006" }}</a></div>
-
-	<div class="tags">{{ range .Params.categories }}<a href="category/{{ . | urlize }}">#{{ . }}</a>{{ end }}</div>
-	<div class="tags">{{ range .Params.tags }}<a href="tags/{{ . | urlize }}">#{{ . }}</a>{{ end }}</div>
-  </div>
-
-  <div class="title"><h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1></div>
-
   <div class="caption">{{ .Content }}</div>
 </div> <!-- post end -->
 
 </div> <!-- content end -->
-
-<div class="pagination-centered">
-<ul class="pagination">
-{{ if .PrevInSection }}
-<li><a href="{{.PrevInSection.Permalink}}">&lt; {{ .PrevInSection.Title }}</a></li>
-{{ end }}
-{{ if .NextInSection }}
-<li><a href="{{.NextInSection.Permalink}}">{{ .NextInSection.Title }} &gt;</a></li>
-{{ end }}
-</ul>
-</div>
 
 {{ partial "footer.html" . }}

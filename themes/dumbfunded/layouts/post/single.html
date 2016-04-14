@@ -2,27 +2,25 @@
 
 <div id="content" class="narrow">
 
-{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
-{{ range .Paginator.Pages }}
 <div class="post text">
 {{ partial "metadata.html" . }}
 
   <div class="title"><h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1></div>
 
-  <div class="caption">{{ .Summary }}</div>
-{{ if .Truncated }}
-<div class="more">
-  <a href="{{ .RelPermalink }}">Read more...</a>
-</div>
-{{ end }}
+  <div class="caption">{{ .Content }}</div>
 </div> <!-- post end -->
-
-{{ end }}
 
 </div> <!-- content end -->
 
 <div class="pagination-centered">
-  {{ template "_internal/pagination.html" . }}
+<ul class="pagination">
+{{ if .PrevInSection }}
+<li><a href="{{.PrevInSection.RelPermalink}}">&lt; {{ .PrevInSection.Title }}</a></li>
+{{ end }}
+{{ if .NextInSection }}
+<li><a href="{{.NextInSection.Permalink}}">{{ .NextInSection.Title }} &gt;</a></li>
+{{ end }}
+</ul>
 </div>
 
 {{ partial "footer.html" . }}

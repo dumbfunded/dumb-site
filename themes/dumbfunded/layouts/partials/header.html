@@ -1,21 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="/css/tumblr.css" rel="stylesheet">
-<link href="/css/bootstrap-pagination.css" rel="stylesheet">
-<title>{{ .Title }}</title>
+<link rel="stylesheet" href="/css/tumblr.css">
+<link rel="stylesheet" href="/css/bootstrap-pagination.css">
+<link rel="icon" href="https://dumbfunded.imgix.net/dumbfunded_small.pdf?fm=png&w=128">
+<link rel="apple-touch-icon" href="https://dumbfunded.imgix.net/dumbfunded_small.pdf?fm=png&w=180">
+
+{{ if .RSSlink }}
+<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+<link href="{{ .RSSlink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+{{ end }}
+
+{{ if .Site.Params.description }}
+<meta name="description" content="{{ .Site.Params.description }}"/>
+<meta property="og:description" content="{{ .Site.Params.description }}"/>
+{{ end }}
+
+{{ if .Params.image }}
+<meta property="og:image" content="{{ .Params.image }}?auto=format&q=90"/>
+{{ else }}
+    {{ if .Site.Params.cover }}
+<meta property="og:image" content="{{ .Site.Params.cover }}"/>
+    {{ end }}
+{{ end }}
+
+{{ if .IsPage }}
+<title>{{ .Site.Title }} - {{ .Title }}</title>
+{{ else }}
+<title>{{ .Site.Title }} - {{ .Site.Params.description }}</title>
+{{ end }}
+{{ if .Site.GoogleAnalytics }}{{ partial "analytics.html" . }}{{ end }}
 </head>
 <body>
 
 <div id="page">
 
 <div id="header">
-<div class="blog-title"><a href="/"><img src="https://dumbfunded.imgix.net/dumbfunded_large.svg" alt="{{ .Site.Title }}"/></a></div>
+<div class="blog-title"><a href="/"><img src="{{ .Site.Params.cover }}" alt="{{ .Site.Title }}"/></a></div>
   <div class="blog-description">
+<!--	<a href="/about">About DF</a> | -->
 	<a href="https://twitter.com/dumbfundedit">@dumbfundedit</a> |
-	<a href="tags/dumb-ideas">#dumb ideas</a> |
-	<a href="tags/funded">#funded!</a> |
-	<a href="tags/pivot">#pivot!</a> |
-	<a href="tags/gotcha">#gotcha!</a>
+	<a href="/categories/dumb-ideas/">#dumb ideas</a> |
+	<a href="/categories/funded/">#funded!</a> |
+	<a href="/categories/pivot/">#pivot!</a> |
+	<a href="/categories/gotcha/">#gotcha!</a>
   </div>
 </div>

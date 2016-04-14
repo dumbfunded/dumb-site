@@ -6,6 +6,7 @@ slug = "lytro-forgets-about-all-the-little-people"
 aliasess = [ "/post/142717797473/lytro-forgets-about-all-the-little-people" ]
 categories = [ "pivot!" ]
 tags = [ "lytro" ]
+image = "https://dumbfunded.imgix.net/stroller.jpg?auto=format&q=90"
 +++
 
 ![The Lytro Gilded Age](https://dumbfunded.imgix.net/stroller.jpg?w=640&h=440&fit=crop&auto=format&q=90 "Lytro! Camera! Action!")
