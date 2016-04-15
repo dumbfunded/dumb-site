@@ -6,6 +6,7 @@ slug = "kuvee"
 aliases = [ "/post/142286167928/kuvee" ]
 categories = [ "funded!" ]
 tags = [ "kuvee" ]
+image = "https://dumbfunded.imgix.net/kuvee.jpg?auto=format&q=90"
 +++
 
 ![The ecstacy of Kuvee](https://dumbfunded.imgix.net/kuvee.jpg?w=640&auto=format&q=90 "What do you mean, your wine bottle is incompatible with my Merlot?")

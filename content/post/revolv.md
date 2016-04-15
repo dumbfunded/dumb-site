@@ -6,6 +6,7 @@ slug = "revolv-shutdown"
 aliases = [ "/post/142450209828/revolv-shutdown" ]
 categories = [ "gotcha!" ]
 tags = [ "nest", "revolv" ]
+image = "https://dumbfunded.imgix.net/revolv.jpg?auto=format&q=90"
 +++
 
 ![Revolv in happier times](https://dumbfunded.imgix.net/revolv.jpg?w=640&auto=format&q=90 "The Revolv family in happier times. No one could have predicted they would all be dead within two years.")

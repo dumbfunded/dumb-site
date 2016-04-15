@@ -1,10 +1,12 @@
 +++
 date = "2016-04-11T01:20:23-07:00"
+draft = false
 title = "Yo"
 slug = "yo"
 aliases = [ "/post/142724955268/yo" ]
 categories = [ "funded!" ]
 tags = [ "yo" ]
+image = "https://dumbfunded.imgix.net/yo_screen.jpg?auto=format&q=90"
 +++
 
 ![Yo This!](https://dumbfunded.imgix.net/yo_screen.jpg?w=640&fit=max&auto=format&q=90 "Yo, you got Yo?")
@@ -21,4 +23,4 @@ tags = [ "yo" ]
 
 **Investor Dumbness Quotient (IDQ)** A
 
-**Obligatory Puff Piece (OPP)** [Someone on Twitter](https://twitter.com/ameliarianaa/status/718331550576865280) still drops yo's.
+**Obligatory Puff Piece (OPP)** [Someone on Twitter](https://twitter.com/ameliarianaa/status/718331550576865280) still drops Yo's.

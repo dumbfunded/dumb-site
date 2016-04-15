@@ -6,6 +6,7 @@ slug = "soylent-vessyl"
 aliases = [ "/post/142280178683/soylent-vessyl" ]
 categories = [ "dumb ideas" ]
 tags = [ "vessyl", "soylent" ]
+image = "https://dumbfunded.imgix.net/soylent_vessyl_logo.png?auto=format&q=90"
 +++
 
 ![Vessoyl](https://dumbfunded.imgix.net/soylent_vessyl_logo.png?w=640&auto=format&q=90 "Warranty void if anything that tastes pleasant enters drinking unit")

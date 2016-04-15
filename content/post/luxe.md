@@ -5,7 +5,8 @@ title = "Luxe and the more buxe"
 slug = "luxe-and-the-more-buxe"
 aliases = [ "/post/142442294248/luxe-and-the-more-buxe", "/post/142442294248/luxe-raises-even-more-buxe" ]
 categories = [ "funded!" ]
-tags = [ "Luxe" ]
+tags = [ "luxe" ]
+image = "https://dumbfunded.imgix.net/luxe_skater.jpg?auto=format&q=90"
 +++
 
 ![Luxe Skater Boi](https://dumbfunded.imgix.net/luxe_skater.jpg?w=640&auto=format&q=90 "This guy is totally thinking about doing a fakie ollie right into the 

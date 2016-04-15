@@ -6,6 +6,7 @@ slug = "juicero-you-juice-bro"
 aliases = [ "/post/142276912373/juicero-you-juice-bro" ]
 categories = [ "funded!" ]
 tags = [ "juicero" ]
+image = "https://dumbfunded.imgix.net/juicero_image.png?auto=format&q=90"
 +++
 
 ![The Majestic Juicebro](https://dumbfunded.imgix.net/juicero_image.png?w=640&auto=format&q=90 "Packet opacity is a key design choice. Seeing the disgusting 
