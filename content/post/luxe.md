@@ -3,7 +3,7 @@ date = "2016-04-08T12:04:00-07:00"
 draft = false
 title = "Luxe and the more buxe"
 slug = "luxe-and-the-more-buxe"
-aliases = [ "/post/142442294248/luxe-and-the-more-buxe" ]
+aliases = [ "/post/142442294248/luxe-and-the-more-buxe", "/post/142442294248/luxe-raises-even-more-buxe" ]
 categories = [ "funded!" ]
 tags = [ "Luxe" ]
 +++

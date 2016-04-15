@@ -3,7 +3,7 @@ date = "2016-04-12T10:44:56-07:00"
 draft = false
 title = "Lytro forgets about all the little people"
 slug = "lytro-forgets-about-all-the-little-people"
-aliasess = [ "/post/142717797473/lytro-forgets-about-all-the-little-people" ]
+aliases = [ "/post/142717797473/lytro-forgets-about-all-the-little-people" ]
 categories = [ "pivot!" ]
 tags = [ "lytro" ]
 image = "https://dumbfunded.imgix.net/stroller.jpg?auto=format&q=90"
