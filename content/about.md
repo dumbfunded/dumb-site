@@ -27,19 +27,14 @@ efforts of a number of companies that have generously decided to turn their VC m
 free (or nearly free) services.
 
 ### [GitHub](https://github.com/)
-Hosts the [git repository](https://github.com/dumbfunded/dumb-site) the site lives in.
-
-Average monthly cost: $0
+Hosts the [git repository](https://github.com/dumbfunded/dumb-site) the site lives in. While
+the repo had to be public to keep the cost at $0, who cares.
 
 ### [NS1](https://ns1.com/)
-Hosts authoritative DNS for `dumbfunded.io`.
-
-Average monthly cost: $0
+Hosts authoritative DNS for `dumbfunded.io`. No charge.
 
 ### [Hugo](https://gohugo.io/)
-Open source static site generator that builds this here website.
-
-Average monthly cost: $0 *(it is open source after all)*
+Open source static site generator that builds this here website. Costs nothing, naturally.
 
 ### [AWS](https://aws.amazon.com/)
 dumbfunded stores its original images in S3.
@@ -60,25 +55,19 @@ Average monthly cost: an astonishing **$9.00**!
 Domain registry for the [.io](https://en.wikipedia.org/wiki/.io) TLD and the 
 place to go to buy domains with very similar names to `dumbfunded.io`.
 
-Average monthly cost: **$7.00**! *(yes that's right, the domain itself is nearly the most 
-expensive part)*
+Average monthly cost: **$7.00**! Yep, the domain itself accounts for half of dumbfunded's budget.
 
 ### [Twitter](https://twitter.com/)
 Gracious host of the [dumbfunded](https://twitter.com/dumbfundedit) Twitter feed, helping 
-to bring 
-links to all the people of the world.
-
-Average monthly cost: $0
+to bring links to all the people of the world. Twitter, of course, is famous for having
+no discernable business model and thus is free.
 
 ### [Google Analytics](https://analytics.google.com/)
-Collects some data so we can tell that somebody reads this thing.
-
-Average monthly cost: $0 *(but we all know Google is getting something out of it)*
+Collects the data that says anyone reads this thing. Costs nothing, but we all know
+what Google is getting out of it.
 
 ### [Let's Encrypt](https://letsencrypt.org/)
-Provides the SSL certificate for `dumbfunded.io`.
-
-Average monthly cost: $0.
+Provides the SSL certificate for `dumbfunded.io`. Gratis.
 
 # Our esteemed sponsor alumni
 
@@ -91,11 +80,9 @@ Everything is served from the US East Coast with no CDN, it doesn't support SSL 
 domains, and nobody cares about it's alleged social networking aspects.
 
 Tumblr also has some exciting ideas about scraping referrer data from links and jamming a 
-**ton** of crud into your pages.
-
-Average monthly cost: $0.
+**ton** of crud into your pages. They also have no business model, and thus it is totally
+free.
 
 ### [CloudFlare](https://www.cloudflare.com/)
-Formerly handled DNS for `dumbfunded.io`, and was the CDN for image content.
-
-Average monthly cost: $0.
+Formerly handled DNS for `dumbfunded.io`, and was the CDN for image content. Mysteriously
+this was free.
