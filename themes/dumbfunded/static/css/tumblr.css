@@ -117,6 +117,17 @@ body {
 	line-height: 1em;
 }
 
+.blog-title {
+	 max-width:1024px;
+         margin: 0 auto;
+}
+
+.blog-title img {
+	width:100%;
+	height:auto;
+}
+
+
 .metadata a {
 	font-family: georgia, helvetica, arial, sans-serif;
 	font-weight: normal;
