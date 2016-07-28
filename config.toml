@@ -10,7 +10,7 @@ googleAnalytics = "UA-76063110-1"
 
 [params]
   description = "mocking the futility of (startup) life"
-  logo = "https://dumbfunded.imgix.net/dumbfunded.svg"
+  logo = "https://d2sf4lafib8dnc.cloudfront.net/dumbfunded.svg"
   og = "https://dumbfunded.imgix.net/dumbfunded_small.pdf?auto=format&fm=png&w=640"
 
 [taxonomies]
